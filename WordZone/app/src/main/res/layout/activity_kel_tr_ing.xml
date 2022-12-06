@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DDE7EC"
+    android:orientation="vertical"
+    tools:context=".kel_tr_ing">
+
+    <ScrollView
+        android:layout_width="394dp"
+        android:layout_height="828dp"
+        tools:ignore="SpeakableTextPresentCheck">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/imageBtn3"
+                android:layout_width="75dp"
+                android:layout_height="53dp"
+                android:layout_marginTop="3dp"
+                android:background="#DDE7EC"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0"
+                app:srcCompat="@drawable/back"
+                app:tint="#494343"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="319dp"
+                android:layout_height="53dp"
+                android:layout_marginStart="75dp"
+                android:layout_marginTop="-51dp"
+                android:text="Türkçe->İngilizce"
+                android:textAlignment="textStart"
+                android:textColor="#000000"
+                android:textSize="34sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/keltrtoing"
+                android:layout_width="374dp"
+                android:layout_height="60dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="25dp"
+                android:background="#EDEBF0F4"
+                android:ems="10"
+                android:hint="  Aramak istediğiniz kelimeyi yazınız"
+                android:inputType="textPersonName"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <ImageButton
+                android:id="@+id/btncheck"
+                android:layout_width="80dp"
+                android:layout_height="68dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="6dp"
+                android:background="#DDE7EC"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.012"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.229"
+                app:srcCompat="@drawable/ic_baseline_check_24"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="182dp"
+                android:layout_height="29dp"
+                android:layout_marginStart="90dp"
+                android:layout_marginTop="-60dp"
+                android:background="#DDE7EC"
+                android:textColor="#00FFFFFF" />
+
+            <TextView
+                android:id="@+id/sonuctrtoing"
+                android:layout_width="379dp"
+                android:layout_height="914dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="38dp"
+                android:layout_marginEnd="15dp"
+                android:hint="sonuc"
+                android:textColor="#000000" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

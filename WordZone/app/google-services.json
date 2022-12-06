@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "474271676332",
+    "project_id": "wordzone-e562e",
+    "storage_bucket": "wordzone-e562e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:474271676332:android:b7fd3ee7970a63ce7a2c09",
+        "android_client_info": {
+          "package_name": "com.example.wordzone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "474271676332-m4acrvlssjjged0os06afgul9apg9rsh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDDFWP4GtO5o6kKi60lJGiwwmpx-VrXR1M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "474271676332-m4acrvlssjjged0os06afgul9apg9rsh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

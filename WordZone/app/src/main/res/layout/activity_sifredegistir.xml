@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DDE7EC"
+    tools:context=".Sifredegistir">
+
+
+    <Button
+        android:id="@+id/btnSifre"
+        android:layout_width="191dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="110dp"
+        android:layout_marginEnd="110dp"
+        android:background="@drawable/butonrenk"
+        android:text="Kaydet"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.834" />
+
+    <ImageButton
+        android:id="@+id/profileGeriGit"
+        android:layout_width="75dp"
+        android:layout_height="53dp"
+        android:background="#7EFFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/textView2"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/back"
+        app:tint="#494343"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="316dp"
+        android:layout_height="53dp"
+        android:background="#7EFFFFFF"
+        android:inputType="none"
+        android:text="Şifre Değiştir"
+        android:textAlignment="viewStart"
+        android:textColor="#000000"
+        android:textSize="34sp"
+        android:textStyle="normal|bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="220dp"
+        android:layout_height="29dp"
+        android:text="Eski Şifrenizi Giriniz"
+        android:textAlignment="textStart"
+        android:textColor="#000000"
+        android:textColorHighlight="#1B0A39"
+        android:textSize="16sp"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.046"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.29" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="220dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="183dp"
+        android:text="Yeni Şifrenizi Tekrar Giriniz"
+        android:textAlignment="textStart"
+        android:textColor="#000000"
+        android:textColorHighlight="#1B0A39"
+        android:textSize="16sp"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.603" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="220dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="183dp"
+        android:text="Yeni Şifre Oluşturunuz"
+        android:textAlignment="textStart"
+        android:textColor="#000000"
+        android:textColorHighlight="#1B0A39"
+        android:textSize="16sp"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.436" />
+
+    <EditText
+        android:id="@+id/eskiSifreniz"
+        android:layout_width="382dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="21dp"
+        android:background="@drawable/background__buton"
+        android:ems="10"
+        android:hint="   Şifre..."
+        android:inputType="textPersonName|textPassword"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.344" />
+
+    <EditText
+        android:id="@+id/yenisifreniz1"
+        android:layout_width="382dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="21dp"
+        android:background="@drawable/background__buton"
+        android:ems="10"
+        android:hint="   Şifre..."
+        android:inputType="textPersonName|textPassword"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/yenisifreniz2"
+        android:layout_width="382dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="13dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/background__buton"
+        android:ems="10"
+        android:hint="   Şifre..."
+        android:inputType="textPersonName|textPassword"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.277"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.683" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:alwaysDrawnWithCache="true"
+    android:background="#DDE7EC"
+    tools:context=".KayitOl">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="316dp"
+        android:layout_height="53dp"
+        android:background="#7EFFFFFF"
+        android:inputType="none"
+        android:text="KAYIT OL"
+        android:textAlignment="viewStart"
+        android:textColor="#000000"
+        android:textSize="34sp"
+        android:textStyle="normal|bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.967"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageButton
+        android:id="@+id/btngeri"
+        android:layout_width="75dp"
+        android:layout_height="53dp"
+        android:background="#7EFFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0"
+        app:srcCompat="@drawable/back"
+        app:tint="#494343"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="214dp"
+        android:layout_height="201dp"
+        android:layout_marginStart="88dp"
+        android:layout_marginEnd="90dp"
+        android:layout_marginBottom="17dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.132"
+        app:srcCompat="@drawable/ic_baseline_account_circle_24" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="388dp"
+        android:layout_height="380dp"
+        android:background="@drawable/kayitbaackk"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.521"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.843"
+        tools:ignore="MissingConstraints">
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/butonKayıt"
+        android:layout_width="191dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/butonrenk"
+        android:text="Kayıt Ol"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.875" />
+
+    <EditText
+        android:id="@+id/eposta"
+        android:layout_width="382dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginBottom="45dp"
+        android:background="@drawable/background__buton"
+        android:ems="10"
+        android:hint="   E-posta..."
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.653" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="220dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="7dp"
+        android:text="*E-posta adresinizi giriniz"
+        android:textAlignment="textStart"
+        android:textColor="#000000"
+        android:textColorHighlight="#1B0A39"
+        android:textSize="16sp"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.545" />
+
+    <EditText
+        android:id="@+id/sifreniz"
+        android:layout_width="382dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="2dp"
+        android:background="@drawable/background__buton"
+        android:ems="10"
+        android:hint="   Şifre..."
+        android:inputType="textPersonName|textPassword"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.759" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="394dp"
+        android:layout_height="46dp"
+        android:text="Kayıt olmak için gerekli alanları doldurunuz!!"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textColorHighlight="#1B0A39"
+        android:textSize="19sp"
+        android:textStyle="normal|bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.475" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="220dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="7dp"
+        android:text="*Şifre oluşturunuz"
+        android:textAlignment="textStart"
+        android:textColor="#000000"
+        android:textColorHighlight="#1B0A39"
+        android:textSize="16sp"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.679" />
+</androidx.constraintlayout.widget.ConstraintLayout>

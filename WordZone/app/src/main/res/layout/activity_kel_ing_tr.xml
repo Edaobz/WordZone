@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DDE7EC"
+    tools:context=".kel_ing_tr">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="779dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/imageBtn3"
+                    android:layout_width="75dp"
+                    android:layout_height="53dp"
+                    android:background="#DDE7EC"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0"
+                    app:srcCompat="@drawable/back"
+                    app:tint="#494343"
+                    tools:ignore="SpeakableTextPresentCheck" />
+
+                <TextView
+                    android:id="@+id/textView9"
+                    android:layout_width="319dp"
+                    android:layout_height="53dp"
+                    android:layout_marginStart="75dp"
+                    android:layout_marginTop="-51dp"
+                    android:text="İngilizce->Türkçe"
+                    android:textAlignment="textStart"
+                    android:textColor="#000000"
+                    android:textSize="34sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/kelimeing"
+                    android:layout_width="374dp"
+                    android:layout_height="60dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginEnd="160dp"
+                    android:background="#EDEBF0F4"
+                    android:ems="10"
+                    android:hint="Aramak istediğiniz kelimeyi yazınız"
+                    android:inputType="textPersonName"
+                    android:textColor="#000000" />
+
+                <ImageButton
+                    android:id="@+id/btncheck"
+                    android:layout_width="80dp"
+                    android:layout_height="68dp"
+                    android:background="#DDE7EC"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.012"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.229"
+                    app:srcCompat="@drawable/ic_baseline_check_24"
+                    tools:ignore="SpeakableTextPresentCheck" />
+
+                <TextView
+                    android:id="@+id/sonucilk"
+                    android:layout_width="185dp"
+                    android:layout_height="34dp"
+                    android:layout_marginStart="100dp"
+                    android:layout_marginTop="-50dp"
+                    android:textColor="#DDE7EC" />
+
+                <TextView
+                    android:id="@+id/sonucTr"
+                    android:layout_width="367dp"
+                    android:layout_height="826dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="15dp"
+                    android:hint="Sonuc"
+                    android:textColor="#000000" />
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
